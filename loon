@@ -1,7 +1,6 @@
 [URL Rewrite]
 
 # 京东比价Fix
-^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start - reject-200
 
 (^https?:\/\/[\w-]+\.googlevideo\.com\/.+)(ctier=L)(&.+) $1$3 302
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) - reject
