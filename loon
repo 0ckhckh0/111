@@ -4,3 +4,6 @@
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) - reject
 [MITM]
 hostname = *.googlevideo.com
+[URL Rewrite]
+# 京东比价Fix
+^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start - reject-200
