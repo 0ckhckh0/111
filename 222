@@ -1,5 +1,5 @@
 # 代理列表
-s.youtube.com
+HOST,s.youtube.com
 # MyList && Other
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,adguard.org
